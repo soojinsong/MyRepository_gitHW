@@ -6,8 +6,10 @@ public class A {
 		System.out.println("Hello GitHW!");
 		System.out.println("This is A.");
 		System.out.println("This is class A.");
-		B your = new B();
-		your.sayHello("BBBB");
+		B your_b = new B();
+		your_b.sayHello("BBBB");
+		C your_c = new C();
+		your_c.sayHello("CCCC");
 	}
 
 }
